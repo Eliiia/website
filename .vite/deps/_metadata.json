@@ -1,8 +1,32 @@
 {
-  "hash": "1acafeca",
+  "hash": "6b663b24",
   "configHash": "21af5af2",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "83588f0f",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "d711287d",
+  "browserHash": "abb6316e",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4124bee7",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ed609b8d",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "60205819",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "rolldown-runtime-BvCyGRYZ": {
+      "file": "rolldown-runtime-BvCyGRYZ.js",
+      "isDynamicEntry": false
+    }
+  }
 }
