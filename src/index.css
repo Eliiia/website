@@ -11,3 +11,7 @@
 
     --font-sans: "Balsamiq Sans", sans-serif;
 }
+
+html, body, #root {
+    height: 100%;
+}
