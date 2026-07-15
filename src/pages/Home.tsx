@@ -1,16 +1,17 @@
+import Button from '../components/Button'
+import Input from '../components/Input'
+import Title from '../components/Title'
+
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <br />
+      <Title>Hello world!</Title>
       <p>hello everyone</p>
+      <Input type="number" />
       <br />
-      <input type="number" />
-      <br />
-      <br />
-      <button>click her -&gt;</button>
-      <button className="submitbutton">click meee not him</button>
-      <button className="ungenderedbutton">ungendered button</button>
+      <Button variant="blue">click her -&gt;</Button>
+      <Button variant="red">click meee not him</Button>
+      <Button variant="classic">Submit</Button>
     </>
   )
 }
