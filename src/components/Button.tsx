@@ -3,13 +3,20 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'blue' | 'red' | 'classic'
 }
 
-export default function Button({ children, variant = 'classic' }: ButtonProps) {
+export default function Button({
+  children,
+  variant = 'classic',
+  onClick,
+}: ButtonProps) {
   const bgColor =
     variant === 'blue' ? 'bg-blue' : variant === 'red' ? 'bg-red' : 'bg-grey'
   const textColor = variant !== 'classic' ? 'text-light' : 'text-dark'
 
   return (
-    <button className={`${bgColor} ${textColor} p-2 rounded-lg min-w-24 m-2`}>
+    <button
+      className={`${bgColor} ${textColor} p-2 rounded-lg min-w-24 m-2 cursor-pointer`}
+      onClick={onClick}
+    >
       {children}
     </button>
   )
