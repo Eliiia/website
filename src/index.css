@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @theme {
     --color-dark: #2c363f;
@@ -8,8 +7,6 @@
     --color-red: #93748a;
     --color-blue: #6d889f;
     --color-grey: #d6dbd2;
-
-    --font-sans: "Balsamiq Sans", sans-serif;
 }
 
 html, body, #root {
