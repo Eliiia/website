@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Button from '../components/Button'
-import Input from '../components/Input'
-import Title from '../components/Title'
+import Button from '../components/primitive/Button'
+import Input from '../components/primitive/Input'
+import Title from '../components/primitive/Title'
 
 export default function Contact() {
   const webhookUrl =

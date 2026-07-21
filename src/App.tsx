@@ -1,4 +1,4 @@
-import Layout from './components/Layout'
+import Layout from './components/structural/Layout'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 
